@@ -29,7 +29,7 @@ setup(
     url=about['__url__'],
     install_requires=[
         'bs4', 'GitPython', 'platformdirs',
-        'py7zr', 'unrar', 'requests', 'tenacity',
+        'py7zr', 'rarfile', 'requests', 'tenacity',
         'tqdm'
     ] + ver_spec_install,
     packages=[
